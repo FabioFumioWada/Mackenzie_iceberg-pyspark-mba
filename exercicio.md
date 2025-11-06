@@ -18,7 +18,7 @@ Você é um **Engenheiro de Dados** em uma empresa de e-commerce que precisa imp
 
 ---
 
-## 🚀 **PARTE 1: Criação da Arquitetura Base (25 pontos)**
+## 🚀 **PARTE 1: Criação da Arquitetura Base **
 
 ### **Tarefa 1.1: Setup do Ambiente**
 Crie um novo notebook chamado `exercicio_final.ipynb` e configure o ambiente Spark com Iceberg.
@@ -49,7 +49,7 @@ PARTITIONED BY (year(data_venda), categoria)
 
 ---
 
-## 📊 **PARTE 2: Operações com Versionamento (25 pontos)**
+## 📊 **PARTE 2: Operações com Versionamento **
 
 ### **Tarefa 2.1: Inserção de Dados Históricos**
 Insira dados de vendas de 2023:
@@ -84,7 +84,7 @@ INSERT INTO hadoop_catalog.default.vendas_ecommerce VALUES
 
 ---
 
-## 🔄 **PARTE 3: Schema Evolution (20 pontos)**
+## 🔄 **PARTE 3: Schema Evolution**
 
 ### **Tarefa 3.1: Evolução do Schema**
 Evolua o schema da tabela adicionando as seguintes colunas:
@@ -106,7 +106,7 @@ INSERT INTO hadoop_catalog.default.vendas_ecommerce VALUES
 
 ---
 
-## 🔧 **PARTE 4: Operações ACID e Merge (15 pontos)**
+## 🔧 **PARTE 4: Operações ACID e Merge **
 
 ### **Tarefa 4.1: Simulação de Erro**
 Faça uma atualização "problemática":
@@ -140,7 +140,7 @@ Execute MERGE INTO para atualizar registro existente e inserir novo.
 
 ---
 
-## 📈 **PARTE 5: Otimização e Análise (15 pontos)**
+## 📈 **PARTE 5: Otimização e Análise **
 
 ### **Tarefa 5.1: Análise de Fragmentação**
 - Use metadados para analisar quantos arquivos foram criados
